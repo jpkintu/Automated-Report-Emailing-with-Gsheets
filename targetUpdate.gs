@@ -367,7 +367,7 @@ function calculateTargetUpdatesAndSendEmail() {
     <div class="footer" style="text-align: left; margin-top: 15px; border-top: 1px solid #eee; padding-top: 15px;">
   <p>Regards,</p>
   <p>Performance Monitoring System</p>
-  <p><em>Note:This is an auto-generated report. For any inquiries, contact <a href="mailto:distribution.ug@upenergygroup.com">The Distribution Team</a></em></p>
+  <p><em>Note:This is an auto-generated report. For any inquiries, contact <a href="mailto:jp@example.com">The Distribution Team</a></em></p>
   
   <div style="margin-top: 15px; text-align: left;">
     <img src="images.squarespace-cdn.com/content/v1/60a3e4977dbfad2879614ea3/15785e2e-4439-4d46-ae1f-75ff8c7940fe/logo.png?format=1500w" 
@@ -380,7 +380,7 @@ function calculateTargetUpdatesAndSendEmail() {
   `;
   
   // Send email
-  const recipients = "johnpaul@upenergygroup.com";
+  const recipients = "jp@example.com";
   const subject = `Distribution Performance Update - ${monthNames[currentMonth-1]} (Day ${yesterdayDate}/${daysInMonth})`;
   
   MailApp.sendEmail({
