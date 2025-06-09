@@ -136,7 +136,7 @@ function sendBiweeklyStats() {
       <p>Regards,</p>
       <p>Performance Monitoring System</p>
       <p>This is an auto-generated report.</p>
-      <p>For any inquiries, contact <a href="mailto:johnpaul@upenergygroup.com">johnpaul@upenergygroup.com</a></p>
+      <p>For any inquiries, contact <a href="mailto:jp@example.com">jp@example.com</a></p>
     </div>
   </body>
   </html>
@@ -144,7 +144,7 @@ function sendBiweeklyStats() {
 
   // Send email
   MailApp.sendEmail({
-    to: "distribution.ug@upenergygroup.com",
+    to: "jp@example.com",
     subject: "Daily Distribution Summary for " + yesterdayStr,
     htmlBody: summaryHtml,
     noReply: true
