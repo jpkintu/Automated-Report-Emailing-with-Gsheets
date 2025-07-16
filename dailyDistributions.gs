@@ -174,7 +174,7 @@ function sendDailyReport() {
   `;
 
   MailApp.sendEmail({
-    to: "distribution.ug@upenergygroup.com",
+    to: "jp@example.com",
     subject: "Daily Distribution Summary for " + yesterdayStr,
     htmlBody: summaryHtml,
     noReply: true
