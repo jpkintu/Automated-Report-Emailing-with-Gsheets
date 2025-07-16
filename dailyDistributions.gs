@@ -167,7 +167,7 @@ function sendDailyReport() {
       <p>Regards,</p>
       <p>Performance Monitoring System</p>
       <p>This is an auto-generated report.</p>
-      <p>For any inquiries, contact <a href="mailto:johnpaul@upenergygroup.com">johnpaul@upenergygroup.com</a></p>
+      <p>For any inquiries, contact <a href="mailto:jp@example.com">jp@example.com</a></p>
     </div>
   </body>
   </html>
